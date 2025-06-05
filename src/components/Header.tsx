@@ -7,7 +7,7 @@ const Header: React.FC = () => {
       <div className="container mx-auto flex items-center justify-between">
         <div className="flex items-center space-x-2">
           <Dumbbell className="h-8 w-8" />
-          <h1 className="text-2xl font-bold">FisioExercícios</h1>
+          <h1 className="text-2xl font-bold">REABSPRO</h1>
         </div>
         <p className="text-sm md:text-base font-light">Sua jornada para recuperação e força</p>
       </div>

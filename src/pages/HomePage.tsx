@@ -1,5 +1,4 @@
 import React from 'react';
-import { ArrowLeft } from 'lucide-react';
 import { exerciseCategories } from '../data/exercises';
 import CategoryCard from '../components/CategoryCard';
 
@@ -12,9 +11,9 @@ const HomePage: React.FC<HomePageProps> = ({ onSelectCategory }) => {
     <div className="container mx-auto px-4 py-8">
       <div className="max-w-3xl mx-auto">
         <div className="mb-8 text-center">
-          <h2 className="text-3xl font-bold text-gray-800 mb-4">Exercícios de Fisioterapia</h2>
+          <h2 className="text-3xl font-bold text-gray-800 mb-4">Exercícios de Recuperação e Fortalecimento</h2>
           <p className="text-gray-600">
-            Selecione uma categoria de exercícios para começar sua jornada de recuperação e fortalecimento.
+            Selecione uma categoria de exercícios para começar sua jornada de reabilitação !
           </p>
         </div>
         
